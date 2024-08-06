@@ -13,13 +13,13 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'Github Projects',
+      header: 'Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
@@ -29,6 +29,7 @@ const CONFIG = {
       },
     },
     external: {
+      /*
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
@@ -49,17 +50,18 @@ const CONFIG = {
           link: 'https://example.com',
         },
       ],
+      */
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Hansel Soberao',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'hansel-soberao',
+    twitter: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -69,74 +71,86 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    website: '',
+    phone: '786-468-6848',
+    email: 'hansel.sob@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'SFTP',
+    'AS2',
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
+    'SSH',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'SSL',
+    'FTP',
+    'Splunk',
+    'PuTTy',
+    'SEEBURGER BIS Platform',
+    'ServiceNow',
+    'WinSCP',
+    'FileZilla',
+
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'American Express',
+      position: 'Technology Associate',
+      from: 'August 2020',
+      to: 'August 2023',
+      companyLink: 'https://www.americanexpress.com/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Pizza Hut',
+      position: 'Customer Service Representative',
+      from: 'June 2018',
+      to: 'February 2020',
+      companyLink: 'https://www.pizzahut.com/',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Certified File Transfer Professional',
+      body: 'CFTP is a vendor-independent file transfer training programme that certifies knowledge on FTP practices.',
+      year: 'December 2023',
+      link: 'https://cftpcert.com/#/online-courses/3bfa4321-c574-476f-9152-c915be8fa6b2',
+    },
+    {
+      name: 'Google Project Management: Professional Certificate',
+      body: 'This program includes over 140 hours of instruction across 6 courses with assessments and real-world scenarios.',
+      year: 'August 2024',
+      link: 'https://www.coursera.org/account/accomplishments/specialization/Y8SDW90S10Y2',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Florida International University',
+      degree: 'Bachelor of Science in Computer Science',
+      from: '2021',
+      to: '2024',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Miami Dade College',
+      degree: 'Associate of Arts',
+      from: '2018',
+      to: '2021',
     },
   ],
   publications: [
+    /*
     {
       title: 'Publication Title',
       conferenceName: '',
@@ -155,12 +169,15 @@ const CONFIG = {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
+    */
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
+    /*
     source: 'dev', // medium | dev
     username: 'arifszn', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
+    */
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -171,7 +188,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'Sunset',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
