@@ -193,7 +193,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Hansel Soberao',
     description: '',
     imageURL: '',
   },
@@ -478,7 +478,7 @@ You can customize the meta tags for SEO in `seo`.
 const CONFIG = {
   // ...
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Hansel Soberao',
     description: '',
     imageURL: '',
   },
