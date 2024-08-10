@@ -82,7 +82,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://hanselsob.github.io/resume/', // Empty fileUrl will hide the `Download Resume` button.
+      'https://docs.google.com/viewerng/viewer?url=https://github.com/HanselSob/resume/raw/main/HanselSob_Resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'SFTP',
