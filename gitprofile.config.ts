@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['HanselSob/cannabis-retail-trends', 'HanselSob/county-level-population-by-race-ethnicity'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['HanselSob/cannabis-retail-trends', 'HanselSob/county-level-population-by-race-ethnicity', 'HanselSob/chinook-tableau-visualizations'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
